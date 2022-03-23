@@ -4,7 +4,6 @@ document.addEventListener("keydown", keyboardInputHandler);
 function keyboardInputHandler(e) {
   let res = document.getElementById("result");
 
-  //numbers
   if (e.key === "0") {
     res.value += "0";
   } else if (e.key === "1") {
